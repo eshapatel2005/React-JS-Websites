@@ -1,24 +1,17 @@
 import logo from './logo.svg';
 import './App.css';
+import  Navs from './components/fronted';
 
 function App() {
+
+  let obj={
+    url:'https://image.shutterstock.com/image-vector/globe-icon-vector-isolated-on-260nw-457679374.jpg',
+    home:'Home',
+    about:'About',
+    product:'Product'
+  }
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+   <Navs {...obj}></Navs>
   );
 }
 
