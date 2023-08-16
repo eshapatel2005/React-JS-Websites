@@ -1,108 +1,1185 @@
 import './fronted.css';
 
 
-export default function Navs({url,home,about,product}){
+ function Navs(){
     
       return (
       <>
-        <div>
-          <table className="nav">
-            <tbody><tr>
-                <th style={{width: '100%'}}>
-                  <ul style={{listStyle: 'none'}}>
-                    <li><img src={url} className="img"></img></li>
-                    <li><a className="active" href="#home">{home}</a></li>
-                    <li><a href="#about">{about}</a></li>
-                    <li><a href="#product">{product}</a></li>
-                    <li className="dropdown">
-                      <a href="#" className="#services">Services</a>
-                      <div className="dropdown-content">
-                        <a href="#">Engage</a>
-                        <a href="#">Pontificate</a>
-                        <a href="#">Synergize</a>
-                      </div>
-                    </li>
-                  </ul>
-                </th>
-                <th>
-                </th></tr><tr>
-                <th style={{float: 'right'}}>
-                  <input type="text" className="form-control" /></th>
-                <th>
-                  <button className="btn2">Search</button>
-                </th>
-              </tr>
-            </tbody></table>
-        </div>
-
-<div>
-<div className="abc">
-  <h1 style={{opacity: '0.5'}}>Dramatically Engage</h1>
-  <p style={{opacity: '0.5'}}>Objectively innovate empowered manufactured products whereas parallel platforms.</p>
-  <button className="btn1">Engage Now</button>
-</div>
-<div className="xyz">
-  <h1>Superior Collaboration <span style={{color: 'grey', fontSize: '20px'}}> Visualize Quality</span></h1>
-  <p style={{color: 'grey'}}>Proactively envisioned multimedia based expertise and cross-media growth strategies. Seamlessly visualize quality intellectual capital without superior<br /> collaboration and idea-sharing. Holistically pontificate installed base portals after maintainable products.<br />
-  </p><div>
-    <table style={{width: '100%'}}>
-      <tbody><tr>
-          <th>
-            <img src="https://thumbs.dreamstime.com/b/beautiful-rain-forest-ang-ka-nature-trail-doi-inthanon-national-park-thailand-36703721.jpg
-" width="300px" height="400px" />
-            <h1 style={{color: '#337ab7', fontWeight: 'normal'}}>Efficiently Unleash</h1>
-            <p style={{color: '#959595', fontFamily: 'sans-serif', fontSize: '14px', fontWeight: 'normal'}}>Collaboratively administrate empowered markets via plug-<br />and-play networks. Dynamically procrastinate B2C users<br /> after installed base benefits. Dramatically visualize<br /> customer directed convergence without revolutionary<br /> ROI.</p>
-          </th>
-          <th>
-            <img src="https://thumbs.dreamstime.com/b/beautiful-rain-forest-ang-ka-nature-trail-doi-inthanon-national-park-thailand-36703721.jpg
-" width="300px" height="400px" />
-            <h1 style={{color: '#337ab7', fontWeight: 'normal'}}>Completely Synergize</h1>
-            <p style={{color: '#959595', fontFamily: 'sans-serif', fontSize: '14px', fontWeight: 'normal'}}>Dramatically maintain clicks-and-mortar solutions without<br /> functional solutions. Efficiently unleash cross-media<br /> information without cross-media value. Quickly maximize<br /> timely deliverables for real-time schemas.</p>
-          </th>
-          <th>
-            <img src="https://thumbs.dreamstime.com/b/beautiful-rain-forest-ang-ka-nature-trail-doi-inthanon-national-park-thailand-36703721.jpg" width="300px" height="400px" />
-            <h1 style={{color: '#337ab7', fontWeight: 'normal'}}>Dynamically Procrastinate</h1>
-            <p style={{color: '#959595', fontFamily: 'sans-serif', fontSize: '14px', fontWeight: 'normal'}}>Professionally cultivate one-to-one customer service with <br />robust ideas. Completely synergize resource taxing<br /> relationships via premier niche markets. Dynamically<br /> innovate resource-leveling customer service for state of<br /> the art customer service.</p>
-          </th>
-        </tr>
-      </tbody></table>
-  </div>
-</div></div>
-
-
-<div>
-        <div className="pqr">
-          <table style={{width: '100%'}}>
-            <tbody><tr>
-                <th style={{fontWeight: 'normal'}}>
-                  <img className="radius" src="https://images.pexels.com/photos/302743/pexels-photo-302743.jpeg" />
-                  <h1 style={{fontSize: '25px', color: '#000', fontWeight: 'normal'}}>Dynamically Procrastinate</h1>
-                  <p style={{fontSize: '15px'}}>Collaboratively administrate empowered markets via <br />plug-and-play networks. Dynamically procrastinate <br />B2C users after installed base benefits. Dramatically <br />visualize customer directed convergence without<br /> revolutionary ROI.</p>
-                  <button className="btn">Procrastinate</button></th>
-                <th style={{fontWeight: 'normal'}}>
-                  <img className="radius" src="https://www.bhaktiphotos.com/wp-content/uploads/2018/04/Hindu-Shiva-God-Wallpaper-Free-Download.jpg" />
-                  <h1 style={{fontSize: '25px', color: '#000', fontWeight: 'normal'}}>Efficiently Unleash</h1>
-                  <p style={{fontSize: '15px'}}>Dramatically maintain clicks-and-mortar solutions<br /> without functional solutions. Efficiently unleash cross-<br />media information without cross-media value.<br /> Quickly maximize timely deliverables for real-time <br />schemas.</p>
-                  <button className="btn">Unleash</button></th>
-                <th style={{fontWeight: 'normal'}}>
-                  <img className="radius" src="https://thumbs.dreamstime.com/b/taj-mahal-agra-india-14026311.jpg" />
-                  <h1 style={{fontSize: '25px', color: '#000', fontWeight: 'normal'}}>Completely Synergize</h1>
-                  <p style={{fontSize: '15px', color: 'lightblack'}}>Professionally cultivate one-to-onecustomer service<br /> with robust ideas. Completely synergize resource <br />taxingrelationships via premier niche markets.<br /> Dynamically innovate resource-leveling customer<br /> service for state of the art<br /> customer service.</p>
-                  <button className="btn">Synergize</button></th>
-              </tr>
-            </tbody></table>
-        </div>
-        <p>
-          <a href="#">Terms &amp; Condition</a>
-          |
-          <a href="#">Privacy Policy</a>
-          |
-          <a href="#">Contact</a>
-        </p>
-        <p style={{color: '#959595'}}>Copyright ©  Example.com 2015</p>
+       
+   <nav className="navbar navbar-expand-lg navbar-light bg-primary">
+    <div className="container">
+      <button
+        className="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarTogglerDemo01"
+        aria-controls="navbarTogglerDemo01"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span className="navbar-toggler-icon" />
+      </button>
+      <div className="collapse navbar-collapse" id="navbarTogglerDemo01">
+        <a
+          className="navbar-brand"
+          href="contact@example.com"
+          style={{ color: "white" }}
+        >
+          <i className="fa fa-envelope-o envelope" aria-hidden="true" />{" "}
+          contact@example.com
+        </a>
+        <ul className="navbar-nav mr-auto mt-2 mt-lg-0">
+          <li className="nav-item active">
+            <a style={{ color: "white" }}>
+              <i className="fa fa-mobile envelope" aria-hidden="true" /> +1 5589
+              55488 55
+            </a>
+          </li>
+        </ul>
+        <a href="#">
+          <i
+            className="fa fa-facebook-official socialicon ftli"
+            aria-hidden="true"
+          />
+        </a>
+        <a href="#">
+          <i className="fa fa-twitter socialicon ftli" aria-hidden="true" />
+        </a>
+        <a href="#">
+          <i
+            className="fa fa-linkedin-square socialicon ftli"
+            aria-hidden="true"
+          />
+        </a>
+        <a href="#">
+          <i className="fa fa-instagram socialicon ftli" aria-hidden="true" />
+        </a>
       </div>
-
-
+    </div>
+  </nav>
+  <nav className="navbar navbar-expand-lg navbar-light">
+    <div className="container">
+      <a className="navbar-brand" href="#">
+        BizLand.
+      </a>
+      <button
+        className="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span className="navbar-toggler-icon" />
+      </button>
+      <div className="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul className="navbar-nav ml-auto">
+          <li className="nav-item active">
+            <a className="nav-link" href="#">
+              Home <span className="sr-only">(current)</span>
+            </a>
+          </li>
+          <li className="nav-item">
+            <a className="nav-link" href="#about">
+              About
+            </a>
+          </li>
+          <li className="nav-item">
+            <a className="nav-link" href="#service">
+              Service
+            </a>
+          </li>
+          <li className="nav-item">
+            <a className="nav-link" href="#Portfolio">
+              Portfolio
+            </a>
+          </li>
+          <li className="nav-item">
+            <a className="nav-link" href="#Team">
+              Team
+            </a>
+          </li>
+          <li className="nav-item dropdown">
+            <a
+              className="nav-link dropdown-toggle"
+              href="http://example.com"
+              id="navbarDropdownMenuLink"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Drop Down
+            </a>
+            <div
+              className="dropdown-menu"
+              aria-labelledby="navbarDropdownMenuLink"
+            >
+              <a className="dropdown-item" href="#">
+                Action
+              </a>
+              <a className="dropdown-item" href="#">
+                Another action
+              </a>
+              <a className="dropdown-item" href="#">
+                Something else here
+              </a>
+            </div>
+          </li>
+          <li className="nav-item">
+            <a className="nav-link" href="#Contact">
+              Contact
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div className="container-fluid skyscraper">
+    <div className="container">
+      <div className="row fbox">
+        <div className="col-sm-9" style={{ marginTop: "15%" }}>
+          <h1 className="welcome">
+            Welcome to <span style={{ color: "#106eea" }}>BizLand</span>
+          </h1>
+          <p className="weteam">
+            We are team of talented designers making websites with Bootstrap
+          </p>
+          <button type="button" className="btn btn-primary">
+            GET STARTED
+          </button>
+          <button
+            type="button"
+            className="btn"
+            href="https://www.youtube.com/watch?v=cfg9_cp4zGk"
+          >
+            <i
+              className="fa fa-play-circle-o"
+              aria-hidden="true"
+              style={{ color: "#106eea" }}
+            />{" "}
+            Watch Video
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div className="container-fluid">
+    <div className="container" style={{ marginTop: 30 }}>
+      <div className="row">
+        <div className="col-sm-3">
+          <div className="bgstyle">
+            <i className="fa fa-futbol-o fafaicon" aria-hidden="true" />
+            <h3 className="head">Lorem Ipsum </h3>
+            <p>
+              Voluptatum deleniti atque corrupti quos dolores et quas molestias
+              excepturi
+            </p>
+          </div>
+        </div>
+        <div className="col-sm-3">
+          <div className="bgstyle">
+            <i className="fa fa-futbol-o fafaicon" aria-hidden="true" />
+            <h4 className="head">Sed ut Prespiciatis</h4>
+            <p>
+              Duis aute irure dolor in reprehenderit in voluptate velit esse
+              cillum dolore
+            </p>
+          </div>
+        </div>
+        <div className="col-sm-3">
+          <div className="bgstyle">
+            <i className="fa fa-futbol-o fafaicon" aria-hidden="true" />
+            <h3 className="head">Mangi Dolores</h3>
+            <p>
+              Voluptatum deleniti atque corrupti quos dolores et quas molestias
+              excepturi{" "}
+            </p>
+          </div>
+        </div>
+        <div className="col-sm-3">
+          <div className="bgstyle">
+            <i className="fa fa-futbol-o fafaicon" aria-hidden="true" />
+            <h3 className="head">Nemo Enim</h3>
+            <p>
+              Voluptatum deleniti atque corrupti quos dolores et quas molestias
+              excepturi{" "}
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="container-fluid mt-4 pb-5"
+    style={{ backgroundColor: "#f6f9fe" }}
+  >
+    <h3 className="about" id="about">
+      {" "}
+      About
+    </h3>
+    <div className="abtcontant">
+      <h2>
+        Find Out More <span style={{ color: "#106eea" }}>About Us</span>
+      </h2>
+      <p>
+        Ut possimus qui ut temporibus culpa velit eveniet modi omnis est
+        <br />
+        adipisci expedita at voluptas atque vitae autem.
+      </p>
+    </div>
+    <div className="container">
+      <div className="row">
+        <div className="col-sm-6">
+          <img src="https://www.teachology.ca/wp-content/uploads/2018/08/rawpixel-678089-unsplash.jpg" alt="ofcwork" className="ofcwork" />
+        </div>
+        <div className="col-sm-6">
+          <h3>
+            Voluptatem dignissimos provident quasi corporis voluptates sit
+            assumenda.
+          </h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+          <div className="alogo" style={{ marginTop: 50 }}>
+            <h4>
+              <i className="fa fa-home home" aria-hidden="true" /> Ullamco
+              laboris nisi ut aliquip consequat
+            </h4>
+          </div>
+          <div className="alogo">
+            <h4>
+              <i className="fa fa-picture-o home" aria-hidden="true" /> Ullamco
+              laboris nisi ut aliquip consequat
+            </h4>
+          </div>
+          <p style={{ marginTop: 20 }}>
+            Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+            irure dolor in reprehenderit in voluptate velit esse cillum dolore
+            eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+            proident, sunt in culpa qui officia deserunt mollit anim id est
+            laborum
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div className="container" style={{ marginTop: 40 }}>
+    <div className="row">
+      <div className="col-sm-6">
+        <div className="container">
+          <h6>HTML</h6>
+          <div className="progress">
+            <div className="progress-bar" style={{ width: "100%" }}>
+              100%
+            </div>
+          </div>
+          <h6>CSS</h6>
+          <div className="progress">
+            <div className="progress-bar" style={{ width: "90%" }}>
+              90%
+            </div>
+          </div>
+          <h6>JAVA</h6>
+          <div className="progress">
+            <div className="progress-bar" style={{ width: "75%" }}>
+              75%
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="col-sm-6">
+        <div className="container">
+          <h6>PHP</h6>
+          <div className="progress">
+            <div className="progress-bar" style={{ width: "80%" }}>
+              80%
+            </div>
+          </div>
+          <h6>WORDPRESS/CMS</h6>
+          <div className="progress">
+            <div className="progress-bar" style={{ width: "90%" }}>
+              90%
+            </div>
+          </div>
+          <h6>PHOTOSHOP</h6>
+          <div className="progress">
+            <div className="progress-bar" style={{ width: "55%" }}>
+              55%
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div className="container-fluid">
+      <div className="container" style={{ marginTop: 100 }}>
+        <div className="row">
+          <div className="col-sm-3" style={{ textAlign: "center" }}>
+            <div className="cominfo">
+              <i className="fa fa-smile-o smile" aria-hidden="true" />
+              <h3 className="head">232</h3>
+              <p>Happy clients</p>
+            </div>
+          </div>
+          <div className="col-sm-3" style={{ textAlign: "center" }}>
+            <div className="cominfo">
+              <i className="fa fa-address-book-o smile" aria-hidden="true" />
+              <h3 className="head">521</h3>
+              <p>Projects</p>
+            </div>
+          </div>
+          <div className="col-sm-3" style={{ textAlign: "center" }}>
+            <div className="cominfo">
+              <i className="fa fa-headphones smile" aria-hidden="true" />
+              <h3 className="head">1463</h3>
+              <p>Hours Of Support</p>
+            </div>
+          </div>
+          <div className="col-sm-3" style={{ textAlign: "center" }}>
+            <div className="cominfo">
+              <i className="fa fa-users smile" aria-hidden="true" />
+              <h3 className="head">15</h3>
+              <p>Hard Workers</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="container-fluid mt-4 pb-5"
+    style={{ backgroundColor: "#f6f9fe" }}
+  >
+    <h3 className="about" id="service">
+      SERVICES
+    </h3>
+    <div className="abtcontant">
+      <h2>
+        Check our <span style={{ color: "#106eea" }}>Services</span>
+      </h2>
+      <p>
+        Ut possimus qui ut temporibus culpa velit eveniet modi omnis est
+        <br />
+        adipisci expedita at voluptas atque vitae autem.
+      </p>
+    </div>
+    <div className="container-fluid">
+      <div className="container">
+        <div className="row">
+          <div className="col-sm-4" style={{ textAlign: "center" }}>
+            <div className="service">
+              <i className="fa fa-futbol-o fafaiconser" aria-hidden="true" />
+              <h3 className="head">Lorem Ipsum </h3>
+              <p>
+                Voluptatum deleniti atque corrupti quos dolores et quas
+                molestias excepturi
+              </p>
+            </div>
+          </div>
+          <div className="col-sm-4" style={{ textAlign: "center" }}>
+            <div className="service">
+              <i className="fa fa-futbol-o fafaiconser" aria-hidden="true" />
+              <h4 className="head">Sed ut Prespiciatis</h4>
+              <p>
+                Duis aute irure dolor in reprehenderit in voluptate velit esse
+                cillum dolore
+              </p>
+            </div>
+          </div>
+          <div className="col-sm-4" style={{ textAlign: "center" }}>
+            <div className="service">
+              <i className="fa fa-futbol-o fafaiconser" aria-hidden="true" />
+              <h3 className="head">Mangi Dolores</h3>
+              <p>
+                Voluptatum deleniti atque corrupti quos dolores et quas
+                molestias excepturi{" "}
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="row" style={{ marginTop: 30 }}>
+          <div className="col-sm-4" style={{ textAlign: "center" }}>
+            <div className="service">
+              <i
+                className="fa fa-futbol-o fafaicon fafaiconser"
+                aria-hidden="true"
+              />
+              <h3 className="head">Nemo Enim</h3>
+              <p>
+                Voluptatum deleniti atque corrupti quos dolores et quas
+                molestias excepturi{" "}
+              </p>
+            </div>
+          </div>
+          <div className="col-sm-4" style={{ textAlign: "center" }}>
+            <div className="service">
+              <i className="fa fa-television fafaiconser" aria-hidden="true" />
+              <h4 className="head">Dele Cardo</h4>
+              <p>
+                Quis consequatur saepe eligendi voluptatem consequatur dolor
+                lorem
+              </p>
+            </div>
+          </div>
+          <div className="col-sm-4" style={{ textAlign: "center" }}>
+            <div className="service">
+              <i className="fa fa-building-o fafaiconser" aria-hidden="true" />
+              <h3 className="head">Nemo Enim</h3>
+              <p>
+                Modi nostrum vel laborum. Porro fugit error sit minus sapiente
+                sit aspernatur
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="demo" className="carousel slide" data-ride="carousel">
+    <ul className="carousel-indicators">
+      <li data-target="#demo" data-slide-to={0} className="active" />
+      <li data-target="#demo" data-slide-to={1} />
+      <li data-target="#demo" data-slide-to={2} />
+    </ul>
+    <div className="carousel-inner">
+      <div className="carousel-item active">
+        <img src="https://www.teachology.ca/wp-content/uploads/2018/08/rawpixel-678089-unsplash.jpg" alt="Los Angeles" width="100%" height={500} />
+        <div className="carousel-caption">
+          <h3>Los Angeles</h3>
+          <p>We had such a great time in LA!</p>
+        </div>
+      </div>
+      <div className="carousel-item">
+        <img src="https://workspace.digital/wp-content/uploads/2020/02/photo-of-woman-using-laptop-3194518.jpg" alt="Chicago" width="100%" height={500} />
+        <div className="carousel-caption">
+          <h3>Chicago</h3>
+          <p>Thank you, Chicago!</p>
+        </div>
+      </div>
+      <div className="carousel-item">
+        <img src="https://images.pexels.com/photos/3688761/pexels-photo-3688761.jpeg?cs=srgb&dl=pexels-helena-lopes-3688761.jpg&fm=jpg" alt="New York" width="100%" height={500} />
+        <div className="carousel-caption">
+          <h3>New York</h3>
+          <p>We love the Big Apple!</p>
+        </div>
+      </div>
+    </div>
+    <a className="carousel-control-prev" href="#demo" data-slide="prev">
+      <span className="carousel-control-prev-icon" />
+    </a>
+    <a className="carousel-control-next" href="#demo" data-slide="next">
+      <span className="carousel-control-next-icon" />
+    </a>
+  </div>
+  <div className="container-fluid mt-4 pb-5">
+    <h3 className="about" id="Portfolio">
+      PORTFOLIO
+    </h3>
+    <div className="abtcontant">
+      <h2>
+        Check our <span style={{ color: "#106eea" }}>Portfolio</span>
+      </h2>
+      <p>
+        Ut possimus qui ut temporibus culpa velit eveniet modi omnis est
+        <br />
+        adipisci expedita at voluptas atque vitae autem.
+      </p>
+    </div>
+    <div className="container">
+      <div className="row">
+        <div className="col-sm-4">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRV-dpYrr_yMiKFAKCnj7wmHejIMEsBro-IKv0-l97X0zfSGEAB4_G2-_lbtsbxYdER0mM&usqp=CAU" className="imggallry"  />
+        </div>
+        <div className="col-sm-4">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRV-dpYrr_yMiKFAKCnj7wmHejIMEsBro-IKv0-l97X0zfSGEAB4_G2-_lbtsbxYdER0mM&usqp=CAU" className="imggallry"  />
+        </div>
+        <div className="col-sm-4">
+          <img src="https://as1.ftcdn.net/v2/jpg/01/20/57/90/500_F_120579054_AynCyEjukCbaw858ZEDoBGiEh2fLmNam.jpg" className="imggallry"  />
+        </div>
+      </div>
+      <div className="row mt-4">
+        <div className="col-sm-4">
+          <img src="https://www.businessinsider.in/photo/94484815/best-laptop-for-school-students.jpg?imgsize=41650" className="imggallry2"  />
+        </div>
+        <div className="col-sm-4">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9kpOKTBSIs13t-TlnYMmqHjFBI7XLFTnvlA&usqp=CAU" className="imggallry2" alt="lamp" />
+        </div>
+        <div className="col-sm-4">
+          <img src="https://cdn.linak.com/-/media/images/tech-and-trends/offices-are-changing-but-desks-are-here-to-staystanding.jpg?rev=7cd1a6dd-e80a-4487-891c-5ede379e8dea" className="imggallry2" alt="googles" />
+        </div>
+      </div>
+    </div>
+    <div
+      className="container-fluid mt-4 pb-5"
+      style={{ backgroundColor: "#f6f9fe" }}
+    >
+      <h3 className="about" id="Team">
+        TEAM
+      </h3>
+      <div className="abtcontant">
+        <h2>
+          Our Hardworking<span style={{ color: "#106eea" }}>Team</span>
+        </h2>
+        <p>
+          Ut possimus qui ut temporibus culpa velit eveniet modi omnis est
+          <br />
+          adipisci expedita at voluptas atque vitae autem.
+        </p>
+      </div>
+      <div className="container">
+        <div className="row">
+          <div className="col-md-3">
+            <div className="card mb-4 box-shadow">
+              <img
+                className="card-img-top"
+                src="https://cdn.linak.com/-/media/images/tech-and-trends/offices-are-changing-but-desks-are-here-to-staystanding.jpg?rev=7cd1a6dd-e80a-4487-891c-5ede379e8dea"
+                data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail"
+                alt="Thumbnail [100%x225]"
+                style={{ height: 250, width: "100%", display: "block" }}
+                data-holder-rendered="true"
+              />
+              <div className="card-body">
+                <h3>Sundar Pichai.</h3>
+                <p className="card-text">Chief Executive Officer</p>
+              </div>
+            </div>
+          </div>
+          <div className="col-md-3">
+            <div className="card mb-4 box-shadow">
+              <img
+                className="card-img-top"
+                src="https://cdn.linak.com/-/media/images/tech-and-trends/offices-are-changing-but-desks-are-here-to-staystanding.jpg?rev=7cd1a6dd-e80a-4487-891c-5ede379e8dea"
+                data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail"
+                alt="Thumbnail [100%x225]"
+                style={{ height: 250, width: "100%", display: "block" }}
+                data-holder-rendered="true"
+              />
+              <div className="card-body">
+                <h3>Ghazal Alagh</h3>
+                <p className="card-text">Product Manager</p>
+              </div>
+            </div>
+          </div>
+          <div className="col-md-3">
+            <div className="card mb-4 box-shadow">
+              <img
+                className="card-img-top"
+                src="https://i.rtings.com/assets/pages/6S2WXjTl/best-laptop-medium.jpg"
+                data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail"
+                alt="Thumbnail [100%x225]"
+                style={{ height: 250, width: "100%", display: "block" }}
+                data-holder-rendered="true"
+              />
+              <div className="card-body">
+                <h3>Larissa Suzuki</h3>
+                <p className="card-text">Chief Technology Officer</p>
+              </div>
+            </div>
+          </div>
+          <div className="col-md-3">
+            <div className="card mb-4 box-shadow">
+              <img
+                className="card-img-top"
+                src="https://images.pexels.com/photos/17367708/pexels-photo-17367708/free-photo-of-laptop-on-desk-in-office.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail"
+                alt="Thumbnail [100%x225]"
+                style={{ height: 250, width: "100%", display: "block" }}
+                data-holder-rendered="true"
+              />
+              <div className="card-body">
+                <h3>Deepak Kohaar</h3>
+                <p className="card-text">Accountant</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div className="container-fluid mt-4 pb-5">
+      <h3 className="about">PRICING</h3>
+      <div className="abtcontant">
+        <h2>
+          Check our<span style={{ color: "#106eea" }}> Pricing</span>
+        </h2>
+        <p>
+          Ut possimus qui ut temporibus culpa velit eveniet modi omnis est
+          adipisci expedita at voluptas atque vitae autem.
+        </p>
+      </div>
+      <div className="container">
+        <div className="row">
+          <div className="col-sm-3">
+            <div
+              className="card mb-4 box-shadow"
+              style={{ textAlign: "center" }}
+            >
+              <div className="card-header">
+                <h4 className="my-0 font-weight-normal">Free</h4>
+              </div>
+              <div className="card-body">
+                <h3 className="card-title pricing-card-title">
+                  <sup>
+                    <span
+                      style={{
+                        color: "#106eea",
+                        fontSize: 25,
+                        fontWeight: 700
+                      }}
+                    >
+                      $0{" "}
+                    </span>
+                  </sup>
+                  <small className="text-muted">/ month</small>
+                </h3>
+                <ul
+                  className="list-unstyled mt-3 mb-4 pt-3 pb-3"
+                  style={{ lineHeight: 4 }}
+                >
+                  <li>Aida dere</li>
+                  <li>Nec feugiat nisl</li>
+                  <li>Nulla at volutpat dola</li>
+                  <li>
+                    <del>Pharetra massa</del>
+                  </li>
+                  <li>
+                    <del>Massa ultricies mi</del>
+                  </li>
+                </ul>
+                <button type="button" className="btn btn-primary btn-block ">
+                  Buy Now
+                </button>
+              </div>
+            </div>
+          </div>
+          <div className="col-sm-3">
+            <div
+              className="card mb-4 box-shadow"
+              style={{ textAlign: "center" }}
+            >
+              <div className="card-header bg-primary">
+                <h4 className="my-0 font-weight-normal">Business</h4>
+              </div>
+              <div className="card-body">
+                <h3 className="card-title pricing-card-title">
+                  <sup>
+                    <span
+                      style={{
+                        color: "#106eea",
+                        fontSize: 25,
+                        fontWeight: 700
+                      }}
+                    >
+                      $19{" "}
+                    </span>
+                  </sup>
+                  <small className="text-muted">/ month</small>
+                </h3>
+                <ul
+                  className="list-unstyled mt-3 mb-4 pt-3 pb-3"
+                  style={{ lineHeight: 4 }}
+                >
+                  <li>Aida dere</li>
+                  <li>Nec feugiat nisl</li>
+                  <li>Nulla at volutpat dola</li>
+                  <li>Pharetra massa</li>
+                  <li>
+                    <del>Massa ultricies mi</del>
+                  </li>
+                </ul>
+                <button type="button" className="btn btn-primary btn-block ">
+                  Buy Now
+                </button>
+              </div>
+            </div>
+          </div>
+          <div className="col-sm-3">
+            <div
+              className="card mb-4 box-shadow"
+              style={{ textAlign: "center" }}
+            >
+              <div className="card-header">
+                <h4 className="my-0 font-weight-normal">Developer</h4>
+              </div>
+              <div className="card-body">
+                <h3 className="card-title pricing-card-title">
+                  <sup>
+                    <span
+                      style={{
+                        color: "#106eea",
+                        fontSize: 25,
+                        fontWeight: 700
+                      }}
+                    >
+                      $29{" "}
+                    </span>
+                  </sup>
+                  <small className="text-muted">/ month</small>
+                </h3>
+                <ul
+                  className="list-unstyled mt-3 mb-4 pt-3 pb-3"
+                  style={{ lineHeight: 4 }}
+                >
+                  <li>Aida dere</li>
+                  <li>Nec feugiat nisl</li>
+                  <li>Nulla at volutpat dola</li>
+                  <li>Pharetra massa</li>
+                  <li>Massa ultricies mi</li>
+                </ul>
+                <button type="button" className="btn btn-primary btn-block ">
+                  Buy Now
+                </button>
+              </div>
+            </div>
+          </div>
+          <div className="col-sm-3">
+            <div
+              className="card mb-4 box-shadow"
+              style={{ textAlign: "center" }}
+            >
+              <div className="card-header">
+                <h4 className="my-0 font-weight-normal">
+                  Ultimate<span className="badge badge-primary">Advanced</span>
+                </h4>
+              </div>
+              <div className="card-body">
+                <h3 className="card-title pricing-card-title">
+                  <sup>
+                    <span
+                      style={{
+                        color: "#106eea",
+                        fontSize: 25,
+                        fontWeight: 700
+                      }}
+                    >
+                      $49{" "}
+                    </span>
+                  </sup>
+                  <small className="text-muted">/ month</small>
+                </h3>
+                <ul
+                  className="list-unstyled mt-3 mb-4 pt-3 pb-3"
+                  style={{ lineHeight: 4 }}
+                >
+                  <li>Aida dere</li>
+                  <li>Nec feugiat nisl</li>
+                  <li>Nulla at volutpat dola</li>
+                  <li>Pharetra massa</li>
+                  <li>Massa ultricies mi</li>
+                </ul>
+                <button type="button" className="btn btn-primary btn-block ">
+                  Buy Now
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="container-fluid mt-4 pb-5"
+        style={{ backgroundColor: "#f6f9fe" }}
+      >
+        <h3 className="about">F.A.Q</h3>
+        <div className="abtcontant">
+          <h2>
+            Frequently Asked<span style={{ color: "#106eea" }}> Questions</span>
+          </h2>
+          <p>
+            Ut possimus qui ut temporibus culpa velit eveniet modi omnis est
+            adipisci expedita at voluptas atque vitae autem.
+          </p>
+        </div>
+        <div className="container">
+          <div id="accordion">
+            <div className="card faq">
+              <div className="card-header">
+                <a
+                  className="card-link cardcontent"
+                  data-toggle="collapse"
+                  href="#collapseOne"
+                >
+                  Non consectetur a erat nam at lectus urna duis?
+                </a>
+              </div>
+              <div
+                id="collapseOne"
+                className="collapse"
+                data-parent="#accordion"
+              >
+                <div className="card-body">
+                  Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id
+                  volutpat lacus laoreet non curabitur gravida. Venenatis lectus
+                  magna fringilla urna porttitor rhoncus dolor purus non.
+                </div>
+              </div>
+            </div>
+            <div className="card faq">
+              <div className="card-header">
+                <a
+                  className="collapsed card-link cardcontent"
+                  data-toggle="collapse"
+                  href="#collapseTwo"
+                >
+                  Feugiat scelerisque varius morbi enim nunc faucibus a
+                  pellentesque?
+                </a>
+              </div>
+              <div
+                id="collapseTwo"
+                className="collapse"
+                data-parent="#accordion"
+              >
+                <div className="card-body">
+                  Dolor sit amet consectetur adipiscing elit pellentesque
+                  habitant morbi. Id interdum velit laoreet id donec ultrices.
+                  Fringilla phasellus faucibus scelerisque eleifend donec
+                  pretium. Est pellentesque elit ullamcorper dignissim. Mauris
+                  ultrices eros in cursus turpis massa tincidunt dui.
+                </div>
+              </div>
+            </div>
+            <div className="card faq">
+              <div className="card-header">
+                <a
+                  className="collapsed card-link cardcontent"
+                  data-toggle="collapse"
+                  href="#collapseThree"
+                >
+                  Dolor sit amet consectetur adipiscing elit pellentesque
+                  habitant morbi?
+                </a>
+              </div>
+              <div
+                id="collapseThree"
+                className="collapse"
+                data-parent="#accordion"
+              >
+                <div className="card-body">
+                  Eleifend mi in nulla posuere sollicitudin aliquam ultrices
+                  sagittis orci. Faucibus pulvinar elementum integer enim. Sem
+                  nulla pharetra diam sit amet nisl suscipit. Rutrum tellus
+                  pellentesque eu tincidunt. Lectus urna duis convallis
+                  convallis tellus. Urna molestie at elementum eu facilisis sed
+                  odio morbi quis
+                </div>
+              </div>
+            </div>
+            <div className="card faq">
+              <div className="card-header">
+                <a
+                  className="collapsed card-link cardcontent"
+                  data-toggle="collapse"
+                  href="#collapseFour"
+                >
+                  Ac odio tempor orci dapibus. Aliquam eleifend mi in nulla?
+                </a>
+              </div>
+              <div
+                id="collapseFour"
+                className="collapse"
+                data-parent="#accordion"
+              >
+                <div className="card-body">
+                  Dolor sit amet consectetur adipiscing elit pellentesque
+                  habitant morbi. Id interdum velit laoreet id donec ultrices.
+                  Fringilla phasellus faucibus scelerisque eleifend donec
+                  pretium. Est pellentesque elit ullamcorper dignissim. Mauris
+                  ultrices eros in cursus turpis massa tincidunt dui.
+                </div>
+              </div>
+            </div>
+            <div className="card faq">
+              <div className="card-header">
+                <a
+                  className="collapsed card-link cardcontent"
+                  data-toggle="collapse"
+                  href="#collapseFive"
+                >
+                  Tempus quam pellentesque nec nam aliquam sem et tortor
+                  consequat?
+                </a>
+              </div>
+              <div
+                id="collapseFive"
+                className="collapse"
+                data-parent="#accordion"
+              >
+                <div className="card-body">
+                  Molestie a iaculis at erat pellentesque adipiscing commodo.
+                  Dignissim suspendisse in est ante in. Nunc vel risus commodo
+                  viverra maecenas accumsan. Sit amet nisl suscipit adipiscing
+                  bibendum est. Purus gravida quis blandit turpis cursus in
+                </div>
+              </div>
+            </div>
+            <div className="card faq">
+              <div className="card-header">
+                <a
+                  className="collapsed card-link cardcontent"
+                  data-toggle="collapse"
+                  href="#collapseSix"
+                >
+                  Tortor vitae purus faucibus ornare. Varius vel pharetra vel
+                  turpis nunc eget lorem dolor?
+                </a>
+              </div>
+              <div
+                id="collapseSix"
+                className="collapse"
+                data-parent="#accordion"
+              >
+                <div className="card-body">
+                  Laoreet sit amet cursus sit amet dictum sit amet justo. Mauris
+                  vitae ultricies leo integer malesuada nunc vel. Tincidunt eget
+                  nullam non nisi est sit amet. Turpis nunc eget lorem dolor
+                  sed. Ut venenatis tellus in metus vulputate eu scelerisque.
+                  Pellentesque diam volutpat commodo sed egestas egestas
+                  fringilla phasellus faucibus. Nibh tellus molestie nunc non
+                  blandit massa enim nec.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div className="container-fluid">
+      <h3 className="about">CONTACT</h3>
+      <div className="abtcontant">
+        <h2>
+          <span style={{ color: "#106eea" }}>Contact Us</span>
+        </h2>
+        <p>
+          Ut possimus qui ut temporibus culpa velit eveniet modi omnis est
+          adipisci expedita at voluptas atque vitae autem.
+        </p>
+      </div>
+      <div className="container">
+        <div className="row">
+          <div className="col-sm-6">
+            <div className="container">
+              <div className="ouraddres">
+                <i className="fa fa-map-marker location" aria-hidden="true" />
+                <h3>Our Address</h3>
+                <p>A108 Adam Street, New York, NY 535022</p>
+              </div>
+              <div className="map mt-4" style={{ width: "100%" }}>
+                <iframe
+                  width="100%"
+                  height={385}
+                  frameBorder={0}
+                  scrolling="no"
+                  marginHeight={0}
+                  marginWidth={0}
+                  src="https://maps.google.com/maps?width=100%25&height=600&hl=en&q=innovate369+(innovate369)&t=&z=14&ie=UTF8&iwloc=B&output=embed"
+                >
+                 
+                </iframe>
+              </div>
+            </div>
+          </div>
+          <div className="col-sm-6">
+            <div className="row">
+              <div className="col-sm-6 ">
+                <div className="contact">
+                  <i className="fa fa-envelope-o mail" aria-hidden="true" />
+                  <h3>Email Us</h3>
+                  <p>contact@example.com</p>
+                </div>
+              </div>
+              <div className="col-sm-6">
+                <div className="contact" id="Contact">
+                  <i className="fa fa-phone mail" aria-hidden="true" />
+                  <h3>Call Us</h3>
+                  <p>+1 5589 55488 55</p>
+                </div>
+              </div>
+            </div>
+            <div
+              className="container mt-4"
+              style={{ backgroundColor: "aliceblue" }}
+            >
+              <div className="container fform" style={{ padding: 30 }}>
+                <form action="/action_page.php">
+                  <div className="row">
+                    <div className="col pl-0">
+                      <input
+                        type="text"
+                        className="form-control"
+                        id="email"
+                        placeholder="Enter email"
+                        name="email"
+                      />
+                    </div>
+                    <div className="col pl-0">
+                      <input
+                        type="password"
+                        className="form-control"
+                        placeholder="Enter password"
+                        name="pswd"
+                      />
+                    </div>
+                    <input
+                      type="text"
+                      className="form-control"
+                      placeholder="Subject"
+                      name="sub"
+                      style={{ marginTop: 10 }}
+                    />
+                    <div className="form-group">
+                      <textarea
+                        className="form-control mt-2"
+                        name="message"
+                        rows={5}
+                        cols="100%"
+                        placeholder="Message"
+                        required=""
+                        style={{ height: 170, width: "100%" }}
+                        defaultValue={""}
+                      />
+                    </div>
+                  </div>
+                  <div className="fbtn">
+                    <button type="submit" className="btn btn-primary mt-2 sub">
+                      Submit
+                    </button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="container-fluid mt-4"
+      style={{ backgroundColor: "aliceblue" }}
+    >
+      <div style={{ textAlign: "center", padding: 40 }}>
+        <h3>Join Our Newsletter</h3>
+        <p>
+          Tamen quem nulla quae legam multos aute sint culpa legam noster magna
+        </p>
+        <form action="" method="post">
+          <input type="email" name="email" className="joinour" />
+          <input
+            type="submit"
+            defaultValue="Subscribe"
+            className="joinourbtn"
+          />
+        </form>
+      </div>
+    </div>
+    <div className="container mt-5">
+      <div className="row">
+        <div className="col-sm-3">
+          <h3>BizLand.</h3>
+          <p>
+            A108 Adam Street
+            <br />
+            New York, NY 535022
+            <br />
+            United States
+          </p>
+          <p>
+            Phone: +1 5589 55488 55
+            <br />
+            Email: info@example.com
+          </p>
+        </div>
+        <div className="col-sm-3">
+          <h5>Useful Links</h5>
+          <p>
+            <a className="uselink" href="#">
+              Home
+            </a>
+          </p>
+          <p>
+            <a className="uselink" href="#">
+              About Us
+            </a>
+          </p>
+          <p>
+            <a className="uselink" href="#">
+              Service
+            </a>
+          </p>
+          <p>
+            <a className="uselink" href="#">
+              Terms of service
+            </a>
+          </p>
+          <p>
+            <a className="uselink" href="#">
+              privacy policy
+            </a>
+          </p>
+        </div>
+        <div className="col-sm-3">
+          <h5>Our Services</h5>
+          <p>
+            <a className="uselink" href="#">
+              Web Design
+            </a>
+          </p>
+          <p>
+            <a className="uselink" href="#">
+              Web Development
+            </a>
+          </p>
+          <p>
+            <a className="uselink" href="#">
+              Product Management
+            </a>
+          </p>
+          <p>
+            <a className="uselink" href="#">
+              Marketing
+            </a>
+          </p>
+          <p>
+            <a className="uselink" href="#">
+              Graphic Design
+            </a>
+          </p>
+        </div>
+        <div className="col-sm-3">
+          <h5>Our Social Networks</h5>
+          <p>
+            Cras fermentum odio eu feugiat lide par naso tierra videa magna
+            derita valies
+          </p>
+          <div>
+            <a className="socialnet" href="#">
+              <i className="fa fa-twitter" aria-hidden="true" />
+            </a>
+            <a className="socialnet" href="#">
+              <i className="fa fa-facebook" aria-hidden="true" />
+            </a>
+            <a className="socialnet" href="#">
+              <i className="fa fa-instagram" aria-hidden="true" />
+            </a>
+            <a className="socialnet" href="#">
+              <i className="fa fa-linkedin" aria-hidden="true" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div className="container-fluid" style={{ backgroundColor: "aliceblue" }}>
+    <div className="container mt-4 p-3" style={{ textAlign: "center" }}>
+      Copyright <b>BizLand.</b> All Rights Reserved{" "}
+      <sup>
+        <i
+          className="fa fa-copyright"
+          aria-hidden="true"
+          style={{ fontSize: 12 }}
+        />
+      </sup>
+    </div>
+  </div>
 </>
-        
-      )}
+)}
+
+export default Navs;
