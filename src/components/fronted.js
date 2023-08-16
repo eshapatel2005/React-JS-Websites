@@ -983,7 +983,7 @@ import './fronted.css';
               <div className="col-sm-6 ">
                 <div className="contact">
                   <i className="fa fa-envelope-o mail" aria-hidden="true" />
-                  <h3>Email Us</h3>
+                  <h3>Email US</h3>
                   <p>contact@example.com</p>
                 </div>
               </div>
