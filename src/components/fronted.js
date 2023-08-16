@@ -25,7 +25,7 @@ import './fronted.css';
           href="contact@example.com"
           style={{ color: "white" }}
         >
-          <i className="fa fa-envelope-o envelope" aria-hidden="true" />{" "}
+          <i className="fa fa-envelope-o envelope" aria-hidden="true" />
           contact@example.com
         </a>
         <ul className="navbar-nav mr-auto mt-2 mt-lg-0">
@@ -37,22 +37,22 @@ import './fronted.css';
           </li>
         </ul>
         <a href="#">
-          <i
-            className="fa fa-facebook-official socialicon ftli"
+          <img src="https://seeklogo.com/images/T/twitter-icon-circle-black-logo-35827D553B-seeklogo.com.png"
+            className="nav"
             aria-hidden="true"
-          />
+          ></img>
         </a>
         <a href="#">
-          <i className="fa fa-twitter socialicon ftli" aria-hidden="true" />
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Facebook_icon_%28black%29.svg/1024px-Facebook_icon_%28black%29.svg.png" className="nav" aria-hidden="true" ></img>
         </a>
         <a href="#">
-          <i
-            className="fa fa-linkedin-square socialicon ftli"
-            aria-hidden="true"
-          />
+          <img src="https://cdn3.iconfinder.com/data/icons/social-media-black-white-1/1024/instagram-512.png"
+            className="nav"
+         
+          ></img>
         </a>
         <a href="#">
-          <i className="fa fa-instagram socialicon ftli" aria-hidden="true" />
+          <img src="https://cdn-icons-png.flaticon.com/512/1384/1384014.png" className="nav"></img>
         </a>
       </div>
     </div>
@@ -169,8 +169,8 @@ import './fronted.css';
       <div className="row">
         <div className="col-sm-3">
           <div className="bgstyle">
-            <i className="fa fa-futbol-o fafaicon" aria-hidden="true" />
-            <h3 className="head">Lorem Ipsum </h3>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRogeTYuqa1lelMmvOGn4ouVvoc3cIyvggSPA&usqp=CAU" className="nav2"></img>
+            <h3 className="head">Lorem Ipsum</h3>
             <p>
               Voluptatum deleniti atque corrupti quos dolores et quas molestias
               excepturi
@@ -179,7 +179,7 @@ import './fronted.css';
         </div>
         <div className="col-sm-3">
           <div className="bgstyle">
-            <i className="fa fa-futbol-o fafaicon" aria-hidden="true" />
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZ9FuoPGIsocBRf2rPRlsiDQctTU4d5gYZ0u5BQFHkgnsnaBpfC6iLiwuSBgMlq_aDB_M&usqp=CAU" className="nav2"></img>
             <h4 className="head">Sed ut Prespiciatis</h4>
             <p>
               Duis aute irure dolor in reprehenderit in voluptate velit esse
@@ -189,7 +189,7 @@ import './fronted.css';
         </div>
         <div className="col-sm-3">
           <div className="bgstyle">
-            <i className="fa fa-futbol-o fafaicon" aria-hidden="true" />
+            <img src="https://static.thenounproject.com/png/1208704-200.png" className="nav2"></img>
             <h3 className="head">Mangi Dolores</h3>
             <p>
               Voluptatum deleniti atque corrupti quos dolores et quas molestias
@@ -199,7 +199,7 @@ import './fronted.css';
         </div>
         <div className="col-sm-3">
           <div className="bgstyle">
-            <i className="fa fa-futbol-o fafaicon" aria-hidden="true" />
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSr07LowNyuQiywQorZ3ZLNR37cZUJ0sq5sDA&usqp=CAU" className="nav2"></img>
             <h3 className="head">Nemo Enim</h3>
             <p>
               Voluptatum deleniti atque corrupti quos dolores et quas molestias
@@ -317,28 +317,28 @@ import './fronted.css';
         <div className="row">
           <div className="col-sm-3" style={{ textAlign: "center" }}>
             <div className="cominfo">
-              <i className="fa fa-smile-o smile" aria-hidden="true" />
+              <img src="https://cdn.icon-icons.com/icons2/2248/PNG/512/home_circle_icon_137496.png" className="nav1"></img>
               <h3 className="head">232</h3>
               <p>Happy clients</p>
             </div>
           </div>
           <div className="col-sm-3" style={{ textAlign: "center" }}>
             <div className="cominfo">
-              <i className="fa fa-address-book-o smile" aria-hidden="true" />
+              <img src="https://static.thenounproject.com/png/4778723-200.png" className="nav1" ></img>
               <h3 className="head">521</h3>
               <p>Projects</p>
             </div>
           </div>
           <div className="col-sm-3" style={{ textAlign: "center" }}>
             <div className="cominfo">
-              <i className="fa fa-headphones smile" aria-hidden="true" />
+              <img src="https://image.shutterstock.com/image-vector/web-click-icon-260nw-1268734198.jpg" className="nav1"></img>
               <h3 className="head">1463</h3>
               <p>Hours Of Support</p>
             </div>
           </div>
           <div className="col-sm-3" style={{ textAlign: "center" }}>
             <div className="cominfo">
-              <i className="fa fa-users smile" aria-hidden="true" />
+              <img src="https://cdn-icons-png.flaticon.com/128/1837/1837537.png" className="nav1"></img>
               <h3 className="head">15</h3>
               <p>Hard Workers</p>
             </div>
@@ -369,7 +369,7 @@ import './fronted.css';
         <div className="row">
           <div className="col-sm-4" style={{ textAlign: "center" }}>
             <div className="service">
-              <i className="fa fa-futbol-o fafaiconser" aria-hidden="true" />
+              <img src="https://www.dhs.gov/sites/default/files/styles/large_card/public/2022-07/DHS1094_Website_Icons_Campus%20Law%20Enforcement%20Pocket%20Card%20.png?h=a660c06f&itok=0czFKo9v" className="nav3"></img>
               <h3 className="head">Lorem Ipsum </h3>
               <p>
                 Voluptatum deleniti atque corrupti quos dolores et quas
@@ -379,7 +379,7 @@ import './fronted.css';
           </div>
           <div className="col-sm-4" style={{ textAlign: "center" }}>
             <div className="service">
-              <i className="fa fa-futbol-o fafaiconser" aria-hidden="true" />
+              <img src="https://www.dhs.gov/sites/default/files/styles/large/public/2022-07/Website_Icons_08_062422.png?itok=vgjabPQ-" className="nav3"></img>
               <h4 className="head">Sed ut Prespiciatis</h4>
               <p>
                 Duis aute irure dolor in reprehenderit in voluptate velit esse
@@ -389,7 +389,7 @@ import './fronted.css';
           </div>
           <div className="col-sm-4" style={{ textAlign: "center" }}>
             <div className="service">
-              <i className="fa fa-futbol-o fafaiconser" aria-hidden="true" />
+              <img src="https://www.dhs.gov/sites/default/files/styles/large_card/public/2022-02/Campus_Law_Enforcement_121621_Update.png?h=935c734e&itok=wPbgONKM" className="nav3"></img>
               <h3 className="head">Mangi Dolores</h3>
               <p>
                 Voluptatum deleniti atque corrupti quos dolores et quas
@@ -401,10 +401,10 @@ import './fronted.css';
         <div className="row" style={{ marginTop: 30 }}>
           <div className="col-sm-4" style={{ textAlign: "center" }}>
             <div className="service">
-              <i
-                className="fa fa-futbol-o fafaicon fafaiconser"
-                aria-hidden="true"
-              />
+              <img src="https://www.dhs.gov/sites/default/files/styles/large_card/public/2023-02/DHS_BC_Web_Icon%20_FLETC_Concern_Course_1.png?h=79c9244b&itok=qZGSvi8E"
+                className="nav3"
+               
+              ></img>
               <h3 className="head">Nemo Enim</h3>
               <p>
                 Voluptatum deleniti atque corrupti quos dolores et quas
@@ -414,7 +414,7 @@ import './fronted.css';
           </div>
           <div className="col-sm-4" style={{ textAlign: "center" }}>
             <div className="service">
-              <i className="fa fa-television fafaiconser" aria-hidden="true" />
+              <img src="https://www.dhs.gov/sites/default/files/styles/large_card/public/2022-05/BC2022_Website_Icons_050122_24.png?h=6126dd1e&itok=aYoP6giA" className="nav3"></img>
               <h4 className="head">Dele Cardo</h4>
               <p>
                 Quis consequatur saepe eligendi voluptatem consequatur dolor
@@ -424,7 +424,7 @@ import './fronted.css';
           </div>
           <div className="col-sm-4" style={{ textAlign: "center" }}>
             <div className="service">
-              <i className="fa fa-building-o fafaiconser" aria-hidden="true" />
+              <img src="https://www.dhs.gov/sites/default/files/styles/large_card/public/2022-06/work%20with%20us%20icon.png?h=d9d28903&itok=N00XEh6o" className="nav3"></img>
               <h3 className="head">Nemo Enim</h3>
               <p>
                 Modi nostrum vel laborum. Porro fugit error sit minus sapiente
@@ -959,7 +959,7 @@ import './fronted.css';
           <div className="col-sm-6">
             <div className="container">
               <div className="ouraddres">
-                <i className="fa fa-map-marker location" aria-hidden="true" />
+                <img src="https://static.vecteezy.com/system/resources/thumbnails/000/449/433/small/Basic_Element_15-30__28237_29.jpg" className="nav4"></img>
                 <h3>Our Address</h3>
                 <p>A108 Adam Street, New York, NY 535022</p>
               </div>
@@ -982,14 +982,14 @@ import './fronted.css';
             <div className="row">
               <div className="col-sm-6 ">
                 <div className="contact">
-                  <i className="fa fa-envelope-o mail" aria-hidden="true" />
+                  <img src="https://cdn-icons-png.flaticon.com/512/666/666162.png" className="nav4"></img>
                   <h3>Email US</h3>
                   <p>contact@example.com</p>
                 </div>
               </div>
               <div className="col-sm-6">
                 <div className="contact" id="Contact">
-                  <i className="fa fa-phone mail" aria-hidden="true" />
+                  <img src="https://cdn-icons-png.flaticon.com/512/455/455705.png" className="nav4"></img>
                   <h3>Call Us</h3>
                   <p>+1 5589 55488 55</p>
                 </div>
@@ -1151,16 +1151,16 @@ import './fronted.css';
           </p>
           <div>
             <a className="socialnet" href="#">
-              <i className="fa fa-twitter" aria-hidden="true" />
+              <img src="https://seeklogo.com/images/T/twitter-icon-circle-black-logo-35827D553B-seeklogo.com.png" className="nav5"></img>
             </a>
             <a className="socialnet" href="#">
-              <i className="fa fa-facebook" aria-hidden="true" />
+              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Facebook_icon_%28black%29.svg/1024px-Facebook_icon_%28black%29.svg.png" className="nav5"></img>
             </a>
             <a className="socialnet" href="#">
-              <i className="fa fa-instagram" aria-hidden="true" />
+              <img src="https://cdn3.iconfinder.com/data/icons/social-media-black-white-1/1024/instagram-512.png" className="nav5"></img>
             </a>
             <a className="socialnet" href="#">
-              <i className="fa fa-linkedin" aria-hidden="true" />
+              <img src="https://cdn-icons-png.flaticon.com/512/1384/1384014.png" className="nav5"></img>
             </a>
           </div>
         </div>
