@@ -1,7 +1,7 @@
 import './fronted.css';
 
 
- function Navs(){
+export default function Navs({brand,home,about,service,portfolio,team}){
     
       return (
       <>
@@ -60,7 +60,7 @@ import './fronted.css';
   <nav className="navbar navbar-expand-lg navbar-light">
     <div className="container">
       <a className="navbar-brand" href="#">
-        BizLand.
+       {brand}
       </a>
       <button
         className="navbar-toggler"
@@ -77,27 +77,27 @@ import './fronted.css';
         <ul className="navbar-nav ml-auto">
           <li className="nav-item active">
             <a className="nav-link" href="#">
-              Home <span className="sr-only">(current)</span>
+              {home} <span className="sr-only">(current)</span>
             </a>
           </li>
           <li className="nav-item">
             <a className="nav-link" href="#about">
-              About
+              {about}
             </a>
           </li>
           <li className="nav-item">
             <a className="nav-link" href="#service">
-              Service
+              {service}
             </a>
           </li>
           <li className="nav-item">
             <a className="nav-link" href="#Portfolio">
-              Portfolio
+              {portfolio}
             </a>
           </li>
           <li className="nav-item">
             <a className="nav-link" href="#Team">
-              Team
+              {team}
             </a>
           </li>
           <li className="nav-item dropdown">
@@ -1182,4 +1182,5 @@ import './fronted.css';
 </>
 )}
 
-export default Navs;
+
+
