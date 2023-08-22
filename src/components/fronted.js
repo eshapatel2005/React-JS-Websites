@@ -109,7 +109,7 @@ export default function Navs({brand,home,about,service,portfolio,team}){
               aria-haspopup="true"
               aria-expanded="false"
             >
-              Drop Down
+              DropDown
             </a>
             <div
               className="dropdown-menu"
