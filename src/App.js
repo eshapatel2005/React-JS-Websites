@@ -10,7 +10,9 @@ function App() {
    about:'ABOUT',
    service:'SERVICE',
    portfolio:"PORTFOLIO",
-   team:"TEAMyugigit89ty890y89ty9gto"
+   team:"TEAM",
+   dropdown:"Drop Down",
+   contact:"CONTACT"
   }
   
   return (

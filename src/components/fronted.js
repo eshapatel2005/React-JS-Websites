@@ -1,7 +1,7 @@
 import './fronted.css';
 
 
-export default function Navs({brand,home,about,service,portfolio,team}){
+export default function Navs({brand,home,about,service,portfolio,team,dropdown,contact}){
     
       return (
       <>
@@ -109,7 +109,7 @@ export default function Navs({brand,home,about,service,portfolio,team}){
               aria-haspopup="true"
               aria-expanded="false"
             >
-              DropDown
+              {dropdown}
             </a>
             <div
               className="dropdown-menu"
@@ -128,7 +128,7 @@ export default function Navs({brand,home,about,service,portfolio,team}){
           </li>
           <li className="nav-item">
             <a className="nav-link" href="#Contact">
-              Contact
+              {contact}
             </a>
           </li>
         </ul>
