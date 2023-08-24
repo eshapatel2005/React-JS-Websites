@@ -1,7 +1,7 @@
 import './fronted.css';
 
 
-export default function Navs({brand,home,about,service,portfolio,team,dropdown,contact}){
+export default function Navs({brand,home,about,service,portfolio,team,dropdown,contact,text,button,video}){
     
       return (
       <>
@@ -140,13 +140,13 @@ export default function Navs({brand,home,about,service,portfolio,team,dropdown,c
       <div className="row fbox">
         <div className="col-sm-9" style={{ marginTop: "15%" }}>
           <h1 className="welcome">
-            Welcome to <span style={{ color: "#106eea" }}>BizLand</span>
+            <span style={{ color: "#106eea" }}>{text}</span>
           </h1>
           <p className="weteam">
             We are team of talented designers making websites with Bootstrap
           </p>
           <button type="button" className="btn btn-primary">
-            GET STARTED
+            {button}
           </button>
           <button
             type="button"
@@ -158,7 +158,7 @@ export default function Navs({brand,home,about,service,portfolio,team,dropdown,c
               aria-hidden="true"
               style={{ color: "#106eea" }}
             />{" "}
-            Watch Video
+            {video}
           </button>
         </div>
       </div>
