@@ -15,7 +15,9 @@ function App() {
    contact:"CONTACT",
    text:"Welcome To Bizland",
    button:"GET STARTED",
-   video:"WATCH VIDEO"
+   video:"WATCH VIDEO",
+   abouts:"ABOUT",
+   service:"SERVICES"
   }
   
   return (

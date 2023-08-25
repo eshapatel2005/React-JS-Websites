@@ -1,7 +1,7 @@
 import './fronted.css';
 
 
-export default function Navs({brand,home,about,service,portfolio,team,dropdown,contact,text,button,video}){
+export default function Navs({brand,home,about,service,portfolio,team,dropdown,contact,text,button,video,abouts,service}){
     
       return (
       <>
@@ -109,7 +109,7 @@ export default function Navs({brand,home,about,service,portfolio,team,dropdown,c
               aria-haspopup="true"
               aria-expanded="false"
             >
-              {dropdown}
+            {dropdown}
             </a>
             <div
               className="dropdown-menu"
@@ -216,7 +216,7 @@ export default function Navs({brand,home,about,service,portfolio,team,dropdown,c
   >
     <h3 className="about" id="about">
       {" "}
-      About
+      {abouts}
     </h3>
     <div className="abtcontant">
       <h2>
@@ -352,7 +352,7 @@ export default function Navs({brand,home,about,service,portfolio,team,dropdown,c
     style={{ backgroundColor: "#f6f9fe" }}
   >
     <h3 className="about" id="service">
-      SERVICES
+      {service}
     </h3>
     <div className="abtcontant">
       <h2>
