@@ -32,7 +32,7 @@ export default function Navs({brand,home,about,service,portfolio,team,dropdown,c
           <li className="nav-item active">
             <a style={{ color: "white" }}>
               <i className="fa fa-mobile envelope" aria-hidden="true" /> +1 5589
-              55488 55
+              55488 99
             </a>
           </li>
         </ul>
