@@ -1,12 +1,12 @@
 import './fronted.css';
 
 
-export default function Navs({brand,home,about,service,portfolio,team,dropdown,contact,text,button,video,abouts,service}){
+export default function Navs(props){
     
       return (
       <>
-       
-   <nav className="navbar navbar-expand-lg navbar-light bg-primary">
+      
+    <nav className="navbar navbar-expand-lg navbar-light bg-primary">
     <div className="container">
       <button
         className="navbar-toggler"
@@ -37,7 +37,7 @@ export default function Navs({brand,home,about,service,portfolio,team,dropdown,c
           </li>
         </ul>
         <a href="#">
-          <img src="https://seeklogo.com/images/T/twitter-icon-circle-black-logo-35827D553B-seeklogo.com.png"
+          <img src={props.img}
             className="nav"
             aria-hidden="true"
           ></img>
@@ -60,7 +60,7 @@ export default function Navs({brand,home,about,service,portfolio,team,dropdown,c
   <nav className="navbar navbar-expand-lg navbar-light">
     <div className="container">
       <a className="navbar-brand" href="#">
-       {brand}
+       {props.brand}
       </a>
       <button
         className="navbar-toggler"
@@ -77,27 +77,27 @@ export default function Navs({brand,home,about,service,portfolio,team,dropdown,c
         <ul className="navbar-nav ml-auto">
           <li className="nav-item active">
             <a className="nav-link" href="#">
-              {home} <span className="sr-only">(current)</span>
+              {props.home} <span className="sr-only">(current)</span>
             </a>
           </li>
           <li className="nav-item">
             <a className="nav-link" href="#about">
-              {about}
+              {props.about}
             </a>
           </li>
           <li className="nav-item">
             <a className="nav-link" href="#service">
-              {service}
+              {props.service}
             </a>
           </li>
           <li className="nav-item">
             <a className="nav-link" href="#Portfolio">
-              {portfolio}
+              {props.portfolio}
             </a>
           </li>
           <li className="nav-item">
             <a className="nav-link" href="#Team">
-              {team}
+              {props.team}
             </a>
           </li>
           <li className="nav-item dropdown">
@@ -109,7 +109,7 @@ export default function Navs({brand,home,about,service,portfolio,team,dropdown,c
               aria-haspopup="true"
               aria-expanded="false"
             >
-            {dropdown}
+            {props.dropdown}
             </a>
             <div
               className="dropdown-menu"
@@ -128,7 +128,7 @@ export default function Navs({brand,home,about,service,portfolio,team,dropdown,c
           </li>
           <li className="nav-item">
             <a className="nav-link" href="#Contact">
-              {contact}
+              {props.contact}
             </a>
           </li>
         </ul>
@@ -140,13 +140,13 @@ export default function Navs({brand,home,about,service,portfolio,team,dropdown,c
       <div className="row fbox">
         <div className="col-sm-9" style={{ marginTop: "15%" }}>
           <h1 className="welcome">
-            <span style={{ color: "#106eea" }}>{text}</span>
+            <span style={{ color: "#106eea" }}>{props.  text}</span>
           </h1>
           <p className="weteam">
             We are team of talented designers making websites with Bootstrap
           </p>
           <button type="button" className="btn btn-primary">
-            {button}
+            {props.button}
           </button>
           <button
             type="button"
@@ -158,7 +158,7 @@ export default function Navs({brand,home,about,service,portfolio,team,dropdown,c
               aria-hidden="true"
               style={{ color: "#106eea" }}
             />{" "}
-            {video}
+            {props.video}
           </button>
         </div>
       </div>
@@ -216,7 +216,7 @@ export default function Navs({brand,home,about,service,portfolio,team,dropdown,c
   >
     <h3 className="about" id="about">
       {" "}
-      {abouts}
+      {props.abouts}
     </h3>
     <div className="abtcontant">
       <h2>
@@ -231,7 +231,7 @@ export default function Navs({brand,home,about,service,portfolio,team,dropdown,c
     <div className="container">
       <div className="row">
         <div className="col-sm-6">
-          <img src="https://www.teachology.ca/wp-content/uploads/2018/08/rawpixel-678089-unsplash.jpg" alt="ofcwork" className="ofcwork" />
+          <img src={props.img1} className="ofcwork" />
         </div>
         <div className="col-sm-6">
           <h3>
@@ -352,7 +352,7 @@ export default function Navs({brand,home,about,service,portfolio,team,dropdown,c
     style={{ backgroundColor: "#f6f9fe" }}
   >
     <h3 className="about" id="service">
-      {service}
+      {props.service}
     </h3>
     <div className="abtcontant">
       <h2>
@@ -444,24 +444,24 @@ export default function Navs({brand,home,about,service,portfolio,team,dropdown,c
     </ul>
     <div className="carousel-inner">
       <div className="carousel-item active">
-        <img src="https://www.teachology.ca/wp-content/uploads/2018/08/rawpixel-678089-unsplash.jpg" alt="Los Angeles" width="100%" height={500} />
+        <img className="img2" src={props.img2} width="100%" height={500} />
         <div className="carousel-caption">
-          <h3>Los Angeles</h3>
-          <p>We had such a great time in LA!</p>
+          <h3 style={{ textAlign: "center",color:"black" }}>Los Angeles</h3>
+          <p style={{textAlign:"center",color:"black"}}>We had such a great time in LA!</p>
         </div>
       </div>
       <div className="carousel-item">
-        <img src="https://workspace.digital/wp-content/uploads/2020/02/photo-of-woman-using-laptop-3194518.jpg" alt="Chicago" width="100%" height={500} />
+        <img className="img2" src={props.img3} width="100%" height={500} />
         <div className="carousel-caption">
-          <h3>Chicago</h3>
-          <p>Thank you, Chicago!</p>
+          <h3 style={{ textAlign: "center",color:"black" }}>Chicago</h3>
+          <p style={{textAlign:"center",color:"black"}}>Thank you, Chicago!</p>
         </div>
       </div>
       <div className="carousel-item">
-        <img src="https://images.pexels.com/photos/3688761/pexels-photo-3688761.jpeg?cs=srgb&dl=pexels-helena-lopes-3688761.jpg&fm=jpg" alt="New York" width="100%" height={500} />
+        <img className="img2" src={props.img4} width="100%" height={500} />
         <div className="carousel-caption">
-          <h3>New York</h3>
-          <p>We love the Big Apple!</p>
+          <h3  style={{ textAlign: "center",color:"black" }}>New York</h3>
+          <p style={{textAlign:"center",color:"black"}}>We love the Big Apple!</p>
         </div>
       </div>
     </div>
@@ -597,7 +597,7 @@ export default function Navs({brand,home,about,service,portfolio,team,dropdown,c
       </div>
     </div>
     <div className="container-fluid mt-4 pb-5">
-      <h3 className="about">PRICING</h3>
+      <h3 className="about">{props.pricing}</h3>
       <div className="abtcontant">
         <h2>
           Check our<span style={{ color: "#106eea" }}> Pricing</span>
@@ -779,7 +779,7 @@ export default function Navs({brand,home,about,service,portfolio,team,dropdown,c
         className="container-fluid mt-4 pb-5"
         style={{ backgroundColor: "#f6f9fe" }}
       >
-        <h3 className="about">F.A.Q</h3>
+        <h3 className="about">{props.faq}</h3>
         <div className="abtcontant">
           <h2>
             Frequently Asked<span style={{ color: "#106eea" }}> Questions</span>
@@ -960,7 +960,7 @@ export default function Navs({brand,home,about,service,portfolio,team,dropdown,c
             <div className="container">
               <div className="ouraddres">
                 <img src="https://static.vecteezy.com/system/resources/thumbnails/000/449/433/small/Basic_Element_15-30__28237_29.jpg" className="nav4"></img>
-                <h3>Our Address</h3>
+                <h3>{props.address}</h3>
                 <p>A108 Adam Street, New York, NY 535022</p>
               </div>
               <div className="map mt-4" style={{ width: "100%" }}>
@@ -983,14 +983,14 @@ export default function Navs({brand,home,about,service,portfolio,team,dropdown,c
               <div className="col-sm-6 ">
                 <div className="contact">
                   <img src="https://cdn-icons-png.flaticon.com/512/666/666162.png" className="nav4"></img>
-                  <h3>Email US</h3>
+                  <h3>{props.email}</h3>
                   <p>contact@example.com</p>
                 </div>
               </div>
               <div className="col-sm-6">
                 <div className="contact" id="Contact">
                   <img src="https://cdn-icons-png.flaticon.com/512/455/455705.png" className="nav4"></img>
-                  <h3>Call Us</h3>
+                  <h3>{props.call}</h3>
                   <p>+1 5589 55488 55</p>
                 </div>
               </div>
@@ -1041,7 +1041,7 @@ export default function Navs({brand,home,about,service,portfolio,team,dropdown,c
                   </div>
                   <div className="fbtn">
                     <button type="submit" className="btn btn-primary mt-2 sub">
-                      Submit
+                      {props.submitbutton}
                     </button>
                   </div>
                 </form>
@@ -1056,7 +1056,7 @@ export default function Navs({brand,home,about,service,portfolio,team,dropdown,c
       style={{ backgroundColor: "aliceblue" }}
     >
       <div style={{ textAlign: "center", padding: 40 }}>
-        <h3>Join Our Newsletter</h3>
+        <h3>{props.heading}</h3>
         <p>
           Tamen quem nulla quae legam multos aute sint culpa legam noster magna
         </p>
