@@ -461,7 +461,7 @@ export default function Navs(props){
         <img className="img2" src={props.img4} width="100%" height={500} />
         <div className="carousel-caption">
           <h3  style={{ textAlign: "center",color:"black" }}>New York</h3>
-          <p style={{textAlign:"center",color:"black"}}>We love the Big Apple!</p>
+          <p style={{textAlign:"center",color:"black"}}>We love the Big Apple!!!</p>
         </div>
       </div>
     </div>

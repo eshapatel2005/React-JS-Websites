@@ -17,7 +17,7 @@ function App() {
    button:"GET STARTED",
    video:"WATCH VIDEO",
    abouts:"ABOUT",
-   service:"SERVICES",
+   service:"SERVICEs",
    pricing:"PRICING",
    faq:"F.A.Q",
    heading:"Join Our NewsLatters",
