@@ -5,7 +5,7 @@ import video from './components/data';
 
 function App() {
   let obj={
-   brand:' BizLand..',
+   brand:' BizLand...',
    home:'HOME',
    about:'ABOUT',
    service:'SERVICE',
@@ -19,8 +19,8 @@ function App() {
    abouts:"ABOUT",
    service:"SERVICEs",
    pricing:"PRICING",
-   faq:"F.A.Q",
-   heading:"Join Our NewsLatters",
+   faq:"F.A.Q.",
+   heading:"Join Our NewsLatterss",
    address:"Our Address",
    email:"Our Email",
    call:"Call US",
