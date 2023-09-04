@@ -10,7 +10,7 @@ function App() {
    about:'ABOUT',
    service:'SERVICE',
    portfolio:"PORTFOLIO",
-   team:"TEAMs",
+   team:"TEAMS",
    dropdown:"Drop Down",
    contact:"CONTACT",
    text:"Welcome To Bizland",
