@@ -21,7 +21,7 @@ function App() {
    pricing:"PRICING",
    faq:"F.A.Q.",
    heading:"Join Our NewsLatterss",
-   address:"Our Address",
+   address:"Our Addres",
    email:"Our Email",
    call:"Call US",
    submitbutton:"SUBMIT",
