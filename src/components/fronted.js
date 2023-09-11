@@ -172,8 +172,8 @@ export default function Navs(props){
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRogeTYuqa1lelMmvOGn4ouVvoc3cIyvggSPA&usqp=CAU" className="nav2"></img>
             <h3 className="head">Lorem Ipsum</h3>
             <p>
-              Voluptatum deleniti atque corrupti quos dolores et quas molestias
-              excepturi
+              Voluptatum deleniti atque corrupti quos dolores et quas molestia
+              excepturi         
             </p>
           </div>
         </div>
@@ -182,13 +182,13 @@ export default function Navs(props){
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZ9FuoPGIsocBRf2rPRlsiDQctTU4d5gYZ0u5BQFHkgnsnaBpfC6iLiwuSBgMlq_aDB_M&usqp=CAU" className="nav2"></img>
             <h4 className="head">Sed ut Prespiciatis</h4>
             <p>
-              Duis aute irure dolor in reprehenderit in voluptate velit esse
+              Duis aute irure dolor in reprehenderit in voluptate velit esses
               cillum dolore
             </p>
           </div>
         </div>
         <div className="col-sm-3">
-          <div className="bgstyle">
+          <div className="bgstyle">+
             <img src="https://static.thenounproject.com/png/1208704-200.png" className="nav2"></img>
             <h3 className="head">Mangi Dolores</h3>
             <p>
