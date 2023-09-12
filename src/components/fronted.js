@@ -173,7 +173,7 @@ export default function Navs(props){
             <h3 className="head">Lorem Ipsum</h3>
             <p>
               Voluptatum deleniti atque corrupti quos dolores et quas molestia
-              excepturi         
+              excepturiii
             </p>
           </div>
         </div>

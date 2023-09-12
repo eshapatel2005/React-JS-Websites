@@ -12,7 +12,7 @@ function App() {
    portfolio:"PORTFOLIO",
    team:"TEAM",
    dropdown:"DROP DOWN",
-   contact:"CONTACT",
+   contact:"CONTACTS",
    text:"Welcome To Bizland",
    button:"GET STARTED",
    video:"WATCH VIDEO",
